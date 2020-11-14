@@ -1,5 +1,5 @@
-const DStorage = artifacts.require("DStorage");
+const SM_Storage = artifacts.require("SM_Storage");
 
-module.exports = function(deployer) {
-  deployer.deploy(DStorage);
+module.exports = function (deployer) {
+  deployer.deploy(SM_Storage);
 };

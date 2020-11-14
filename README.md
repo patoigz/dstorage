@@ -1,5 +1,18 @@
-## ``` Decentralized File Storage. ```
+# DStorage
 
+To get started clone this repo.
 
-## 🔧 Project Diagram:
-![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)
+# Quickstart
+Set your `INFURA_PROJECT_ID` and `PRIVATE_KEYS`
+
+```
+GANACHE - CLI
+ganache-cli
+```
+
+```
+NPM
+npm install
+truffle migrate --reset
+npm run start
+```
